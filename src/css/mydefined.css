@@ -1,0 +1,21 @@
+.h-95vh {
+  height: 95vh;
+}
+.m-25vh {
+  margin: 2.5vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.h-94 {
+  height: 94%;
+}
+.w-94 {
+  width: 94%;
+}
+*::-webkit-scrollbar {
+  display: none;
+}

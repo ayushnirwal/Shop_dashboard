@@ -1,0 +1,95 @@
+@keyframes option-animate-in {
+  0% {
+    clip-path: circle(0% at 100% 50%);
+  }
+  100% {
+    clip-path: circle(100%);
+  }
+}
+@keyframes option-animate-out {
+  0% {
+    clip-path: circle(100%);
+  }
+  100% {
+    clip-path: circle(0% at 100% 50%);
+  }
+}
+
+.option-animate-in-class {
+  animation: option-animate-in 500ms forwards;
+}
+.option-animate-out-class {
+  animation: option-animate-out 500ms forwards;
+}
+
+@keyframes page-animate-in {
+  0% {
+    clip-path: circle(0% at 0% 50%);
+  }
+  100% {
+    clip-path: circle(100%);
+  }
+}
+@keyframes page-animate-out {
+  0% {
+    clip-path: circle(100%);
+  }
+  100% {
+    clip-path: circle(0% at 0% 50%);
+  }
+}
+
+.page-animate-in-class {
+  animation: page-animate-in 500ms forwards;
+}
+.page-animate-out-class {
+  animation: page-animate-out 500ms forwards;
+}
+
+@keyframes window-animate-in-25 {
+  0% {
+    clip-path: circle(0% at 25% 50%);
+  }
+  100% {
+    clip-path: circle(100%);
+  }
+}
+@keyframes window-animate-out-25 {
+  0% {
+    clip-path: circle(100%);
+  }
+  100% {
+    clip-path: circle(0% at 25% 50%);
+  }
+}
+
+.window-animate-in-class-25 {
+  animation: window-animate-in-25 500ms forwards;
+}
+.window-animate-out-class-25 {
+  animation: window-animate-out-25 500ms forwards;
+}
+
+@keyframes window-animate-in-75 {
+  0% {
+    clip-path: circle(0% at 75% 50%);
+  }
+  100% {
+    clip-path: circle(100%);
+  }
+}
+@keyframes window-animate-out-75 {
+  0% {
+    clip-path: circle(100%);
+  }
+  100% {
+    clip-path: circle(0% at 75% 50%);
+  }
+}
+
+.window-animate-in-class-75 {
+  animation: window-animate-in-75 500ms forwards;
+}
+.window-animate-out-class-75 {
+  animation: window-animate-out-75 500ms forwards;
+}
